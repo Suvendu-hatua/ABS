@@ -552,30 +552,30 @@ outline: none;
     padding: 3px 10px;
 }
 @media screen  and (max-width:430px) {
-    body{
-        width: 400px;
+     body{
+        width: 320px;
     }
 .navber{
-    width:400px;
+    width:320px;
 }
 .navbar-brand{
     margin:0%;
 }
 .nav{
     margin-left: 0%;
-    width: 200px;
+    width: 150px;
 }
 .nav-section{
-    width: 400px;
+    width: 320px;
 }
 .nav-item{
     /* width: 150px; */
     margin-left: 0%;
-    font-size: .90rem;
+    font-size: .70rem;
     margin-right: 0px;
 }
 .nav a{
-    width: 60px;
+    width: 50px;
 }
 .associate{
     font-size: x-small;
