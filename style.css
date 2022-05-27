@@ -1,0 +1,1001 @@
+.navbar-brand{
+    margin-left: 10%;
+}
+.nav{
+    margin-right: 10%;
+}
+.nav a{
+    color: black;
+}
+.associate{
+    display: inline-block;
+    background-color: #0AA1DD;
+    color: white;
+    font-size: small;
+    width: 80px;
+    text-align: center;
+    letter-spacing: 0.80px;
+    border-radius: 1.5px;
+}
+.business{
+    display: block;
+    font-style: italic;
+    font-size: xx-small;
+    font-weight: bold;
+    text-decoration: underline #0AA1DD 4px solid;
+}
+.front{
+    background-image: url("image/back-ground.jpg");
+    background-size:cover;
+    height: 500px;
+    
+    background-repeat: no-repeat;
+    background-position:25% 65%;
+}
+.front-box{
+    background-color: white;
+    width: 500px;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 22%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.front-box h2{
+    color: #0d82b0;
+    font-family: 'Merriweather';
+    font-weight: bold;
+    font-size:1.7rem;
+}
+.front-box p{
+    font-style: italic;
+    font-weight: bold;
+    font-size:x-small;
+}
+.success-story{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    width: 200px;
+   margin-left: 10px;
+}
+.abs-advantage{
+    background-color:#0d82b0 ;
+    color: white;
+    border-radius: 15px;
+    width: 200px;
+    border-color: #0d82b0 ;
+    margin-left: 50px;
+}
+.discover{
+    background-color: #0d82b0;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.discover h4{
+    letter-spacing: 0.5px;
+    font-family: serif;
+    font-size: 1.5rem;
+}
+.discover p{
+    font-size: x-small;
+}
+.discover button{
+    background-color: white;
+    border-color: white;
+    font-weight:600;
+    /* font-size: x-small; */
+    border-radius: 15px;
+    /* width: 200px; */
+}
+.section-card{
+    background-color: #e8e8e8;
+    padding: 20px;
+    margin: 5px 30px;
+    width: 400px;
+   
+}
+.card img{
+    width: 95px;
+    height: 95px;
+    margin-top: 20px;
+}
+.card-group{
+    width: 900px;
+    margin: auto;
+}
+.card-section{
+    text-align: center;
+
+}
+.payroll-servise{
+    padding: 40px;
+    width: 900px;
+    margin: auto;
+}
+.payroll-servise h2{
+  color:#0d82b0;
+  font-family: 'Merriweather';
+  font-weight: bold;
+}
+.payroll-servise p{
+font-size: x-small;
+color: rgb(141, 137, 137);
+}
+.image{
+    background-color:#0a78a3;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: auto;
+    border :6px solid #6cc9ee
+}
+.card-title{
+    font-size: 1rem;
+}
+.milestone{
+    background-color: #0d82b0;
+    margin-top: 70px;
+    color: white;
+}
+.milestone h2{
+    font-family: "Merriweather";
+    font-weight: bold;
+    padding-top: 30px;
+}
+.mile-para{
+    font-style: italic;
+}
+.flex{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content:center;
+    font-weight: bold;
+}
+.flex div{
+    margin: 15px;
+}
+.abs{
+    background-color: rgba(250, 247, 247, 0.936);
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.container{
+    display: flex;
+    margin-left: 250px;
+}
+.grid-container {
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-columns: auto auto ;
+    width: 600px;
+    margin-left: 50px;
+  }
+  .abs-box{
+      background-color: white;
+      width: 250px;
+      height: 200px;
+      margin-top: 350px;
+      position: absolute;
+      left: 120px;
+      padding: 15px;
+      font-family:serif;
+      border-radius: 5px;
+  }
+  .abs-box h1{
+    color: #0a78a3;
+    
+    font-size: 3rem;
+  }
+  .abs-box p{
+      font-style: italic;
+      font-weight: 600;
+  }
+  .abs-card h5{
+      font-size:1rem;
+      padding-top: 15px;
+      width: 250px;
+      margin: auto;
+  }
+  .abs-card{
+      height: 280px;
+      width: 300px;
+      background-color: white;
+      text-align: center;
+  }
+.abs-card p{
+    text-align: center;
+    text-decoration: underline;
+    font-size: .80rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.about{
+    padding-top: 30px;
+    padding-bottom: 35px;
+    color: #096e96;
+}
+.about h1{
+    text-align: center;
+
+    padding-bottom: 30px;
+    font-family: "Merriweather";
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.about-container{
+    display: flex;
+}
+.about-container img{
+    width: 650px;
+    height: 320px;
+}
+.about-para{
+    padding-top: 35px;
+    margin-left: 50px;
+}
+.about-para h4{
+    font-family:sans-serif ;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.about-para p{
+    font-family: serif;
+    width: 700px;
+    color: #034c69;
+    padding-bottom: 20px;
+}
+.about button{
+    
+    background-color:#096e96;
+    color: white;
+    border-radius: 15px;
+    border-color: #096e96;
+    font-size: .80rem;
+    width: 120px;
+}
+.servise-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: auto;
+    width: 900px;
+    text-align: center;
+}
+.servise-card{
+    width: 160px;
+    height: 160px;
+    background-color:#e8e8e8 ;
+}
+.servise-card .image{
+    background-color:#0a78a3;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: auto;
+    border :6px solid #64ccf5
+}
+.servise-card img{
+    width: 55px;
+    height: 55px;
+    margin-bottom: 20px;
+}
+.servise .card{
+    border-color: #e8e8e8;
+}
+.servise{
+    background-color: #e8e8e8;
+    text-align: center;
+    padding: 30px;
+}
+.underline{
+    background-color:#0AA1DD;
+    height: 2px;
+    width: 100px;
+    margin: auto;
+}
+.servise h2{
+color: #034c69;
+font-size: 1.6rem;
+padding-bottom: 10px;
+}
+.servise p{
+    font-size:0.75rem;
+    color:#034c69;
+    width: 500px;
+    margin: auto;
+    padding: 15px 0;
+}
+.client-container{
+    width: 900px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.client-container img{
+    width: 120px;
+    height: 120px;
+}
+
+.client{
+    text-align: center;
+    padding: 30px;
+}
+.client h2{
+  color: #0f1e24;
+}
+.client p{
+    font-family: serif;
+    padding-bottom: 20px;
+}
+.review{
+    text-align: center;
+    background-color:#e8e8e8 ;
+    padding: 40px;
+}
+.review-item{
+    width: 860px;
+    margin: auto;
+    height: 200px;
+    padding-top: 40px;
+}
+.review h2{
+    color: #034c69;
+    font-family: "Merriweather";
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.review-para{
+    color: #034c69;
+}
+.review-item h5{
+    margin-left: 150px;
+}
+.story-card{
+    background-color: white;
+    border-color: white;
+    width: 280px;
+    margin: 20px;
+}
+.story-container{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+}
+.story-card img{
+   width: 280px ;
+   height: 200px;
+}
+.story-card .card-text{
+margin-left: 30px;
+}
+.story h5{
+    color: black;
+}
+.story h2,.story-para{
+  text-align: center;
+}
+
+.story-card p{
+    font-size: .80rem;
+    font-weight:500;
+    padding-top: 10px;
+}
+.story{
+    color: #034c69;
+    padding: 30px;
+}
+.story-para{
+font-weight: 600;
+}
+.update{
+    background-color: #ebfffe;
+    padding:25px;
+    text-align: center;
+    color: #044a67;
+}
+.update h2{
+    font-family: "Merriweather";
+    font-weight:600;
+    letter-spacing: 1px;
+}
+.update p{
+    font-weight: 500;
+    font-size: .85rem;
+}
+.update-carousel{
+    background-color:#034c69;
+    color: white;
+    padding-bottom: 30px;
+}
+
+#schedual{
+    background-color: white;
+    border-color: white;
+    border-radius: 20px;
+    margin: auto;
+    display: block;
+    font-size: .85rem;
+    font-weight: bold;
+    padding: 5px 20px;
+
+}
+.mail{
+    color: #034c69;
+    text-align: center;
+    padding: 30px;
+  
+}
+.mail h1{
+    font-family: "Merriweather" ;
+    font-weight: 500;
+}
+.mail p{
+    font-weight: 500;
+}
+.mail-form{
+    background-color: #034c69;
+    width: 900px;
+    margin: auto;
+    padding: 30px 0;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+.mail input{
+    background-color: #034c69;
+    border-color: white;
+    color: white;
+    padding: 8px ;
+    width: 350px;
+    margin-right: 5px;
+}
+.mail ::placeholder{
+    color: white;
+}
+.mail button{
+    border-radius: 20px;
+    padding: 7px 15px;
+    border-color: white;
+    font-weight: bold;
+}
+.faq{
+    padding: 40px;
+    background-color: #e8e8e8;
+}
+.faq h2{
+    text-align: center;
+    color: #034c69;
+    font-weight: bold;
+    
+}
+.faq p{
+    color: #021f2b;
+    text-align: center;
+    font-weight: 500;
+}
+.accordion{
+    width: 950px;
+    margin: auto;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.accordion-item{
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.accordion-button{
+    background-color: #0a94ca;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.contact{
+    padding: 30px;
+    text-align: center;
+}
+.contact h3{
+    color: #034c69;
+    font-family: "Merriweather";
+    font-weight: 600;
+}
+.contact p{
+    color: #021f2b;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.contact input,textarea{
+    width: 450px;
+    border-top-style:hidden;
+outline: none;
+    border-left: none;
+    border-right:#e8e8e8;
+    padding: 7px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid black;
+}
+.contact-btn{
+    font-weight: bold;
+    color: white;
+    background-color: #096e96;
+    border-radius: 10px;
+    border-color: #096e96;
+    padding: 5px 15px;
+}
+.last-para{
+    background-color: #075979;
+    display: flex;
+    width: 900px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    padding: 25px;
+}
+.last-para h3{
+    color: white;
+    font-size:1.4rem;
+    font-family:sans-serif;
+}
+.last-para p{
+    color: white;
+    font-size: small;
+}
+.direction{
+    background: white;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-color: white;
+    border-radius: 15px;
+    font-weight: 500;
+    padding: 3px 10px;
+}
+@media screen  and (max-width:430px) {
+    body{
+        width: 400px;
+    }
+.navber{
+    width:400px;
+}
+.navbar-brand{
+    margin:0%;
+}
+.nav{
+    margin-left: 0%;
+    width: 200px;
+}
+.nav-section{
+    width: 400px;
+}
+.nav-item{
+    /* width: 150px; */
+    margin-left: 0%;
+    font-size: .90rem;
+    margin-right: 0px;
+}
+.nav a{
+    width: 60px;
+}
+.associate{
+    font-size: x-small;
+    width: 65px;
+}
+.business{
+    font-size: .60rem;
+}
+.front{
+    height: 280px;
+    width: 400px;
+}
+.front-box{
+    width: 210px;
+    height: 90px;
+    padding-bottom: 0px;
+    margin-left: 25px;
+    margin-top: 160px;
+}
+.front-box h2{
+    font-size: .72rem;
+}
+.front-box p{
+    font-size:.50rem;
+    margin-bottom: 4px;
+}
+.front-box button{
+    width: 85px;
+    font-size:0.40rem;
+}
+.front-btn
+{
+    display: flex;
+}
+.abs-advantage{
+    margin-left: 2px;
+}
+.discover{
+    width: 400px;
+    padding: 15px 0;
+}
+.discover h4{
+font-size: 18px ;
+width: 380px;
+margin-left: 5px;
+}
+.discover p{
+    font-size: .70rem;
+    width: 380px;
+    margin: auto;
+    padding-bottom: 3px;
+}
+.discover button{
+    width: 180px;
+    font-size: .60rem;
+}
+.section-card{
+    padding: 0px;
+     margin: 5px 7px; 
+    width: 110px;
+   height: 150px;
+}
+.card img{
+    width: 45px;
+    height: 45px;
+    margin-top: 10px;
+}
+.image{
+   margin-top: 10px;
+    width: 85px;
+    height: 85px;
+    padding: 0;
+}
+.card-section{
+    width: 400px;
+}
+.payroll-servise{ 
+    width: 380px;
+    padding: 10px;
+}
+.payroll-servise h2{
+    font-size: 1rem;
+}
+.payroll-servise p{
+    font-size: .70rem;
+}
+.card-group{
+    width: 380px;
+    display: flex;
+    margin: auto;
+    padding-top: 0%;
+}
+.card-title{
+    font-size: 0.60rem;
+}
+.milestone{
+    margin-top: 20px;
+}
+.milestone h2{
+    font-size: .95rem;
+}
+.mile-para{
+    font-size:0.6rem;
+}
+.flex{
+    padding-top: 5px;
+    padding-bottom: 2px;
+    display: flex;
+    justify-content:center;
+    font-weight: bold;
+    font-size: .55rem;
+}
+.abs{
+    width: 400px;
+}
+.abs-img{
+   display: none;
+}
+.container{
+    margin-left: 0px;
+}
+.grid-container {
+    column-gap: 4px;
+    row-gap: 5px;
+    width: 250px;
+    margin-left: 140px;
+  }
+  .abs-card h5{
+    font-size:.60rem;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    width: 115px;
+}
+.abs-card{
+    height: 150px;
+    width: 120px; 
+}
+.abs-card p{
+  font-size:.55rem;
+  letter-spacing: 0px;
+}
+.abs-box{
+    width: 120px;
+    height: 110px;
+    margin-top: 100px;
+    left: 15px;
+    font-weight: bold;
+}
+.abs-box h1{
+  font-size: 1rem;
+}
+.abs-box p{
+    font-size: x-small;
+}
+.about{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 400px;
+}
+.about h1{
+    padding-bottom: 10px;
+    font-size: .95rem;
+    letter-spacing: 1px;
+}
+.about-container{
+    display: flex;
+}
+.about-container img{
+    width: 175px;
+    height: 160px;
+
+}
+.about-para{
+    padding-top: 5px;
+    margin-left: 15px;
+    width: 210px ;
+}
+.about-para h4{
+    padding-bottom: 2px;
+    font-size: .75rem;
+}
+.about-para p{
+    width: 200px;
+    font-size:.55rem;
+    padding-bottom: 3px;
+    margin-bottom: 0%;
+}
+.about button{
+    font-size: .60rem;
+    width: 90px;
+}
+.servise{
+    padding: 15px 0;
+    width: 400px;
+}
+.servise h2{
+    font-size: .95rem;
+    padding-bottom: 0px;
+    }
+.servise p{
+        font-size:0.65rem;
+        width: 380px;
+        margin: auto;
+        padding: 7px 0;
+ }
+ .servise-container{
+    width: 400px;
+}
+.servise-card{
+    width: 90px;
+    height: 110px;
+}
+.servise-card .image{
+    width: 75px;
+    height: 75px;
+}
+.servise-card h5{
+    font-size: .70rem;
+}
+.servise-card img{
+    width: 43px;
+    height: 43px;
+    margin-bottom: 15px;
+}
+.client-container{
+    width: 400px;
+}
+.client-container img{
+    width: 70px;
+    height: 70px;
+    margin-left: 0%;
+}
+.client{
+    width: 400px;
+    padding: 20px 0;
+}
+.client h2{
+width: 380px;
+}
+.client p{
+    padding-bottom: 5px;
+    font-size: small;
+}
+.review{
+    padding: 20px 0;
+    width: 400px;
+}
+.review .carousel{
+    width: 390px;
+}
+.review-item{
+    width: 390px;
+    margin: auto;
+    height: 140px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size:.65rem;
+}
+.review-item p{
+    width: 290px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+.review h2{
+   font-size: 1.08rem;
+}
+.review-para{
+    font-size: .65rem;
+    width: 380px;
+}
+.review-item h5{
+    margin-left: 90px;
+    font-weight: bold;
+    font-size: .55rem;
+    padding-bottom: 15px;
+}
+.story-card{
+    width: 135px;
+    height: 200px;
+    margin: 5px;
+}
+.story-container{
+    width: 400px;
+}
+.story-card img{
+   width: 115px ;
+   height: 115px;
+}
+.story-card .card-text{
+margin-left: 0px;
+}
+.story h5{
+   font-size: .80rem; 
+}
+.story h2{
+font-size: 20px;
+text-align: center;
+}
+
+.story-card p{
+    font-size: .55rem;
+    padding-top: 0px;
+}
+.story{
+    padding: 20px 0;
+    width: 400px;
+}
+.story-para{
+font-size: .65rem;
+padding-bottom: 0px;
+}
+.update{
+    padding:10px 0;
+    width: 400px;
+}
+.update h2{
+   font-size: 1rem;
+   letter-spacing: 0px;
+}
+.update p{
+    font-size: .75rem;
+}
+.update-carousel{
+    width: 400px;
+    padding-bottom: 30px;
+}
+.update-carousel .review-item{
+    width: 300px;
+    font-size: .60rem;
+    height: 175px;
+    padding-top: 35px;
+}
+#schedual{
+    font-size: .60rem;
+    font-weight: bold;
+    padding: 5px 7px;
+}
+.mail{
+    width: 400px;
+    padding: 20px 0; 
+}
+.mail h1{
+ font-size: 1rem;
+ font-weight: bold;
+}
+.mail p{
+font-size: .9rem;
+}
+.mail-form{
+    width: 380px;
+    padding: 20px 0;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.mail input{
+    padding: 5px ;
+    width: 360px;
+    margin-bottom: 10px;
+}
+.mail button{
+    border-radius: 20px;
+    padding: 3px 25px;
+}
+.faq{
+    padding: 20px;
+    width: 400px;
+}
+.faq h2{
+   font-size: 20px;
+    
+}
+.faq p{
+  font-size: .70rem;
+}
+.accordion{
+    width: 330px;
+    padding-top: 5px;
+}
+.accordion-item{
+    width: 330px;
+}
+.accordion-body{
+    font-size: .80rem;
+}
+.accordion-button{
+    width: 330px;
+}
+.contact{
+    width: 400px;
+}
+
+.contact p{
+    font-size: 1rem;
+}
+.contact input,textarea{
+    width: 340px;
+    margin-bottom: 10px;
+}
+.contact-btn{
+    border-radius: 15px;
+    padding: 5px 20px;
+}
+.last-para{
+    width: 350px;
+    margin-top: 30px;
+    padding: 10px;
+}
+.last-para h3{
+    font-size:1rem;
+}
+.last-para p{
+    color: white;
+    font-size: .70rem;
+}
+.direction{
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 3px 5px;
+    width: 100px;
+    font-size: .65rem;
+}
+
+}
