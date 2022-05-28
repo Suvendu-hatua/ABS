@@ -552,21 +552,21 @@ outline: none;
     padding: 3px 10px;
 }
 @media screen  and (max-width:430px) {
-     body{
-        width: 320px;
+    body{
+        width: 300px;
     }
 .navber{
-    width:320px;
+    width:300px;
 }
 .navbar-brand{
     margin:0%;
 }
 .nav{
-    margin-left: 0%;
+    margin-left: 20px;
     width: 150px;
 }
 .nav-section{
-    width: 320px;
+    width: 300px;
 }
 .nav-item{
     /* width: 150px; */
@@ -585,100 +585,103 @@ outline: none;
     font-size: .60rem;
 }
 .front{
-    height: 280px;
-    width: 400px;
+    height: 250px;
+    width: 300px;
 }
 .front-box{
-    width: 210px;
-    height: 90px;
-    padding-bottom: 0px;
+    width: 180px;
+    /* height: 90px; */
+    padding-bottom: 7px;
     margin-left: 25px;
     margin-top: 160px;
 }
 .front-box h2{
-    font-size: .72rem;
+    font-size: .60rem;
 }
 .front-box p{
-    font-size:.50rem;
+    font-size:.40rem;
     margin-bottom: 4px;
 }
 .front-box button{
-    width: 85px;
-    font-size:0.40rem;
+    width: 90px;
+    font-size:0.32rem;
 }
 .front-btn
 {
     display: flex;
+    margin-right: 7px;
 }
 .abs-advantage{
-    margin-left: 2px;
+    margin-left: 3px;
 }
 .discover{
-    width: 400px;
-    padding: 15px 0;
+    width: 300px;
+    padding: 10px 0;
 }
 .discover h4{
-font-size: 18px ;
-width: 380px;
+font-size: .95rem ;
+width: 280px;
 margin-left: 5px;
 }
 .discover p{
-    font-size: .70rem;
-    width: 380px;
-    margin: auto;
+    font-size: .50rem;
+    width: 280px;
+    margin-left: 5px;
     padding-bottom: 3px;
 }
 .discover button{
     width: 180px;
-    font-size: .60rem;
+    font-size: .55rem;
 }
 .section-card{
     padding: 0px;
-     margin: 5px 7px; 
-    width: 110px;
+     margin: 5px 5px; 
+    width: 85px;
    height: 150px;
 }
 .card img{
-    width: 45px;
-    height: 45px;
-    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
 }
 .image{
    margin-top: 10px;
-    width: 85px;
+    width: 75px;
     height: 85px;
     padding: 0;
 }
 .card-section{
-    width: 400px;
+    width: 300px;
 }
 .payroll-servise{ 
-    width: 380px;
+    width: 280px;
     padding: 10px;
 }
 .payroll-servise h2{
-    font-size: 1rem;
+    font-size: .95rem;
 }
 .payroll-servise p{
-    font-size: .70rem;
+    font-size: .55rem;
 }
 .card-group{
-    width: 380px;
+    width: 290px;
     display: flex;
     margin: auto;
     padding-top: 0%;
 }
 .card-title{
-    font-size: 0.60rem;
+    font-size: 0.50rem;
 }
 .milestone{
     margin-top: 20px;
 }
 .milestone h2{
-    font-size: .95rem;
+    font-size: .90rem;
+    width: 280px;
 }
 .mile-para{
-    font-size:0.6rem;
+    font-size:0.5rem;
+    width: 280px;
 }
 .flex{
     padding-top: 5px;
@@ -686,10 +689,10 @@ margin-left: 5px;
     display: flex;
     justify-content:center;
     font-weight: bold;
-    font-size: .55rem;
+    font-size: .50rem;
 }
 .abs{
-    width: 400px;
+    width: 300px;
 }
 .abs-img{
    display: none;
@@ -698,250 +701,255 @@ margin-left: 5px;
     margin-left: 0px;
 }
 .grid-container {
-    column-gap: 4px;
+    column-gap: 3px;
     row-gap: 5px;
-    width: 250px;
-    margin-left: 140px;
+    width: 205px;
+    margin-left: 90px;
   }
   .abs-card h5{
-    font-size:.60rem;
+    font-size:.47rem;
     padding-top: 5px;
     padding-bottom: 3px;
-    width: 115px;
+    width: 80px;
 }
 .abs-card{
     height: 150px;
-    width: 120px; 
+    width: 90px; 
 }
 .abs-card p{
-  font-size:.55rem;
+  font-size:.40rem;
   letter-spacing: 0px;
 }
 .abs-box{
-    width: 120px;
-    height: 110px;
+    width: 80px;
+    height: 100px;
     margin-top: 100px;
-    left: 15px;
+    left: 10px;
     font-weight: bold;
 }
 .abs-box h1{
-  font-size: 1rem;
+  font-size: .85rem;
 }
 .abs-box p{
-    font-size: x-small;
+    font-size: xx-small;
 }
 .about{
     padding-top: 10px;
     padding-bottom: 20px;
-    width: 400px;
+    width: 300px;
 }
 .about h1{
     padding-bottom: 10px;
-    font-size: .95rem;
+    font-size: .90rem;
     letter-spacing: 1px;
 }
 .about-container{
     display: flex;
 }
 .about-container img{
-    width: 175px;
-    height: 160px;
+    width: 135px;
+    height: 120px;
 
 }
 .about-para{
     padding-top: 5px;
-    margin-left: 15px;
-    width: 210px ;
+    margin-left: 5px;
+    width: 160px ;
 }
 .about-para h4{
     padding-bottom: 2px;
-    font-size: .75rem;
+    font-size: .55rem;
 }
 .about-para p{
-    width: 200px;
-    font-size:.55rem;
+    width: 150px;
+    font-size:.40rem;
     padding-bottom: 3px;
     margin-bottom: 0%;
 }
 .about button{
-    font-size: .60rem;
-    width: 90px;
+    font-size: .50rem;
+    width: 80px;
 }
 .servise{
     padding: 15px 0;
-    width: 400px;
+    width: 300px;
 }
 .servise h2{
-    font-size: .95rem;
+    font-size: .90rem;
     padding-bottom: 0px;
     }
 .servise p{
-        font-size:0.65rem;
-        width: 380px;
+        font-size:0.50rem;
+        width: 270px;
         margin: auto;
         padding: 7px 0;
  }
  .servise-container{
-    width: 400px;
+    width: 300px;
 }
 .servise-card{
-    width: 90px;
-    height: 110px;
+    width: 65px;
+    height: 90px;
 }
 .servise-card .image{
-    width: 75px;
-    height: 75px;
+    width: 55px;
+    height: 55px;
+    /* margin-bottom: 10px; */
 }
 .servise-card h5{
-    font-size: .70rem;
+    font-size: .50rem;
 }
 .servise-card img{
-    width: 43px;
-    height: 43px;
-    margin-bottom: 15px;
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
 }
 .client-container{
-    width: 400px;
+    width: 280px;
 }
 .client-container img{
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     margin-left: 0%;
 }
 .client{
-    width: 400px;
+    width: 300px;
     padding: 20px 0;
 }
 .client h2{
-width: 380px;
+width: 280px;
 }
 .client p{
     padding-bottom: 5px;
-    font-size: small;
+    font-size: x-small;
+    width: 270px;
 }
 .review{
     padding: 20px 0;
-    width: 400px;
+    width: 300px;
 }
 .review .carousel{
-    width: 390px;
+    width: 290px;
 }
 .review-item{
-    width: 390px;
+    width: 290px;
     margin: auto;
     height: 140px;
-    padding-top: 10px;
+    padding-top: 15px;
     padding-bottom: 5px;
-    font-size:.65rem;
+    font-size:.45rem;
 }
 .review-item p{
-    width: 290px;
+    width: 200px;
     margin: auto;
     padding-bottom: 10px;
 }
 .review h2{
-   font-size: 1.08rem;
+   font-size: .95rem;
 }
 .review-para{
-    font-size: .65rem;
-    width: 380px;
+    font-size: .45rem;
+    width: 280px;
 }
 .review-item h5{
-    margin-left: 90px;
+    margin-left: 50px;
     font-weight: bold;
-    font-size: .55rem;
-    padding-bottom: 15px;
+    font-size: .40rem;
+    padding-bottom: 10px;
 }
 .story-card{
-    width: 135px;
+    width: 85px;
     height: 200px;
-    margin: 5px;
+    margin: 3px;
 }
 .story-container{
-    width: 400px;
+    width: 300px;
 }
 .story-card img{
-   width: 115px ;
-   height: 115px;
+   width: 85px ;
+   height: 85px;
 }
 .story-card .card-text{
 margin-left: 0px;
 }
 .story h5{
-   font-size: .80rem; 
+   font-size: .60rem; 
 }
 .story h2{
-font-size: 20px;
+font-size: 1rem;
 text-align: center;
 }
-
+.story-card .card-body{
+    width: 85px;
+    padding: 2px;
+}
 .story-card p{
     font-size: .55rem;
     padding-top: 0px;
 }
 .story{
-    padding: 20px 0;
-    width: 400px;
+    padding: 5px 0;
+    width: 300px;
 }
 .story-para{
-font-size: .65rem;
+font-size: .5rem;
 padding-bottom: 0px;
 }
 .update{
     padding:10px 0;
-    width: 400px;
+    width: 300px;
 }
 .update h2{
    font-size: 1rem;
    letter-spacing: 0px;
 }
 .update p{
-    font-size: .75rem;
+    font-size: .55rem;
 }
 .update-carousel{
-    width: 400px;
-    padding-bottom: 30px;
+    width: 300px;
+    padding-bottom: 10px;
 }
 .update-carousel .review-item{
-    width: 300px;
-    font-size: .60rem;
-    height: 175px;
+    width: 230px;
+    font-size: .40rem;
+    height: 130px;
     padding-top: 35px;
 }
 #schedual{
-    font-size: .60rem;
+    font-size: .50rem;
     font-weight: bold;
     padding: 5px 7px;
 }
 .mail{
-    width: 400px;
+    width: 300px;
     padding: 20px 0; 
 }
 .mail h1{
- font-size: 1rem;
+ font-size: .90rem;
  font-weight: bold;
 }
 .mail p{
-font-size: .9rem;
+font-size: .7rem;
 }
 .mail-form{
-    width: 380px;
+    width: 280px;
     padding: 20px 0;
     border-radius: 5px;
     margin-top: 5px;
 }
 .mail input{
     padding: 5px ;
-    width: 360px;
+    width: 260px;
     margin-bottom: 10px;
 }
 .mail button{
     border-radius: 20px;
-    padding: 3px 25px;
+    padding: 3px 15px;
 }
 .faq{
     padding: 20px;
-    width: 400px;
+    width: 300px;
 }
 .faq h2{
    font-size: 20px;
@@ -951,51 +959,57 @@ font-size: .9rem;
   font-size: .70rem;
 }
 .accordion{
-    width: 330px;
+    width: 250px;
     padding-top: 5px;
 }
 .accordion-item{
-    width: 330px;
+    width: 250px;
 }
 .accordion-body{
-    font-size: .80rem;
+    font-size: .65rem;
 }
 .accordion-button{
-    width: 330px;
+    width: 250px;
+    font-size: .65rem;
 }
 .contact{
-    width: 400px;
+    width: 300px;
 }
-
+.contact h3{
+    font-size: .95rem;
+}
 .contact p{
-    font-size: 1rem;
+    font-size: .70rem;
 }
 .contact input,textarea{
-    width: 340px;
-    margin-bottom: 10px;
+    width: 240px;
+    padding: 2px 0;
+    margin-bottom: 5px;
+}
+.contact ::placeholder{
+    font-size: .7rem;
 }
 .contact-btn{
     border-radius: 15px;
-    padding: 5px 20px;
+    padding: 2px 15px;
 }
 .last-para{
-    width: 350px;
-    margin-top: 30px;
+    width: 240px;
+    margin-top: 20px;
     padding: 10px;
 }
 .last-para h3{
-    font-size:1rem;
+    font-size:.70rem;
 }
 .last-para p{
-    color: white;
-    font-size: .70rem;
+    font-size: .50rem;
 }
 .direction{
     margin-top: 30px;
     margin-left: 20px;
-    padding: 3px 5px;
-    width: 100px;
-    font-size: .65rem;
+    padding: 3px 3px;
+    width: 75px;
+    font-size: .5rem;
 }
 
 }
